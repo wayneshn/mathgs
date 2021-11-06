@@ -1,0 +1,17 @@
+{
+  "name": "mathgs",
+  "version": "1.0.0",
+  "description": "Mathjs for Google Apps Script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wei",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^10.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.13.12"
+  }
+}
