@@ -26,7 +26,7 @@ In case you see the following error message:
 
 You can add the following line to the top of your math.js or math.gs file:
 
-    var exports = {"\_\_esModule": true}
+    var exports = {"__esModule": true}
 
 This should fix the error.
 
