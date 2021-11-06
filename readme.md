@@ -14,7 +14,7 @@ Select "Resources" > "Libraries..." in the Google Apps Script editor. Enter the 
 
 This project uses esbuild to compile npm packages to Google Apps Script. Here is an example of how you can compile the index.js file to the math.js file.
 
-npx esbuild index.js --bundle --global-name=math --outfile=math.js --platform=node
+    npx esbuild index.js --bundle --global-name=math --outfile=math.js --platform=node
 
 Simply copy the compiled code to your Google Apps Script IDE and you will be able to use the library.
 
@@ -22,11 +22,11 @@ Simply copy the compiled code to your Google Apps Script IDE and you will be abl
 
 In case you see the following error message:
 
-ReferenceError: exports is not defined
+    ReferenceError: exports is not defined
 
 You can add the following line to the top of your math.js or math.gs file:
 
-var exports = {"\_\_esModule": true}
+    var exports = {"\_\_esModule": true}
 
 This should fix the error.
 
