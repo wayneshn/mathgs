@@ -61,7 +61,3 @@ You can add the following line to the top of your math.js or math.gs file:
     var exports = {"__esModule": true}
 
 This should fix the error.
-
-## Supporter
-
-This project is supported by [Logic Sheet](https://logicsheet.co/), an all-in-one data-processing tool for Google Sheets.
